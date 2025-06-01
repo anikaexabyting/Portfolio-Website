@@ -1,0 +1,11 @@
+.footer {
+  width: 100%;
+  background: #605f5f;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0 18px 0;
+  font-size: 1.1rem;
+  font-family: 'Poppins', Arial, sans-serif;
+  letter-spacing: 0.5px;
+  border-top: 1px solid #222;
+} 

@@ -1,0 +1,155 @@
+.contact {
+  width: 100%;
+  background: #111;
+  padding: 80px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.contact-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.contact-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.contact-info {
+  margin-bottom: 32px;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.contact-icon {
+  color: #ff267e;
+  font-size: 1.5rem;
+  margin-right: 14px;
+}
+
+.contact-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.15rem;
+  transition: color 0.2s;
+}
+
+.contact-link:hover {
+  color: #ff267e;
+}
+
+.contact-socials {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.contact-social {
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.2s;
+}
+
+.contact-social:hover {
+  color: #ff267e;
+}
+
+.contact-cv-btn {
+  background: #ff267e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 54px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 32px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s;
+}
+
+.contact-cv-btn:hover {
+  background: #b8004c;
+  color: #fff;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-input, .contact-textarea {
+  width: 100%;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 20px;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.contact-input:focus, .contact-textarea:focus {
+  border: 2px solid #ff267e;
+}
+
+.contact-submit-btn {
+  background: #ff267e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 54px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 24px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s;
+}
+
+.contact-submit-btn:hover {
+  background: #b8004c;
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+  .contact-title {
+    font-size: 2rem;
+  }
+  .contact-form {
+    width: 100%;
+  }
+} 

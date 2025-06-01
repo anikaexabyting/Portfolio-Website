@@ -1,0 +1,80 @@
+.skills {
+  width: 100%;
+  padding: 80px 0 60px 0;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 48px;
+  letter-spacing: 1px;
+}
+
+.skills-slider {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-card {
+  background: #833453;
+  color: #fff;
+  border-radius: 22px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 32px 24px 28px 24px;
+  min-width: 260px;
+  max-width: 320px;
+  min-height: 320px;
+  height: 320px;
+  flex: 1 1 260px;
+  transition: background 0.5s, color 0.5s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  margin: 0 12px;
+  justify-content: flex-start;
+}
+
+.skills-card:hover {
+  background: linear-gradient(90deg, #ff267e 0%, #833453 100%);
+  color: #fff;
+}
+
+.skills-card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 18px;
+}
+
+.skills-card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.skills-card-desc {
+  font-size: 1.05rem;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+@media (max-width: 1000px) {
+  .skills-slider {
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+  }
+  .skills-card {
+    max-width: 95vw;
+    min-width: 0;
+    width: 100%;
+  }
+} 
